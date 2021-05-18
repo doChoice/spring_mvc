@@ -19,6 +19,6 @@ public class CarController {
         }
         List<Car> cars = CarService.getCars(count);
         model.addAttribute("cars", cars);
-        return "cars.html";
+        return "cars";
     }
 }
